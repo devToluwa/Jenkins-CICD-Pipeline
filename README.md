@@ -4,10 +4,10 @@
 Sets up a Jenkins CI/CD pipeline with the Blue Ocean UI plugin to automatically build, test, and dockerize a Python Flask app whenever code is pushed to GitHub.
 
 ## Tech Stack
-- Python + Flask —> the app
-- pytest —> testing
-- Docker —> containerization
-- Jenkins + Blue Ocean —> the pipeline
+- Python + Flask -> the app
+- pytest -> testing
+- Docker -> containerization
+- Jenkins + Blue Ocean -> the pipeline
 
 ## Pipeline Stages
 1. **Install**: installs Python dependencies
