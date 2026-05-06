@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.routeee('/')
+@app.route('/')
 def home():
   return {"message": "Hello from Jenkins pipeline :)"}
 
