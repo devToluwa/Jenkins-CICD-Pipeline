@@ -1,0 +1,4 @@
+FROM jenkins/jenkins:lts
+USER root
+RUN apt-get update -y && apt-get install -y python3 python3-pip docker.io
+USER jenkins

@@ -7,11 +7,11 @@ pipeline{
         sh 'pip3 install -r requirements.txt --break-system-packages'
       }
     }
-    stage('Test'){
-      steps{
-        sh 'python3 test_app.py -v'
-      }
+    stage('Test') {
+    steps {
+        sh 'python3 -m pytest test_app.py -v'
     }
+}
     stage('Docker Build'){
       steps{
         sh 'docker build -t flask-jenkins-app .'
