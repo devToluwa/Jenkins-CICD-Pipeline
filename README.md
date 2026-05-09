@@ -1,7 +1,5 @@
 # Jenkins CI/CD Pipeline with Stage View
 
-Part of my 100 DevOps Projects challenge.
-
 ## What this project does
 Sets up a Jenkins CI/CD pipeline to automatically install dependencies, test, and dockerize a Python Flask app whenever a build is triggered. Pipeline stages are visualized using Jenkins' built-in Pipeline Stage View.
 
