@@ -6,6 +6,21 @@ Sets up a Jenkins CI/CD pipeline to automatically install dependencies, test, an
 ## Note on Blue Ocean
 This project originally called for Jenkins Blue Ocean as the UI layer. Blue Ocean is largely deprecated and incompatible with modern Jenkins and current plugin versions. Pipeline Stage View is the current industry standard and is what this project uses instead.
 
+## Screenshots
+
+### Pipeleine Output
+<img src="screenshots/terraform-apply.png" width="600" alt="Terraform Apply"/>
+
+### Jenkins Stage View
+<img src="screenshots/jenkins-stage-view.png." width="600" alt="VPC Dashboard"/>
+
+### JenkinsFile
+<img src="screenshots/jenkinsfile.png" width="600" alt="EC2 Running"/>
+
+### Flask Application
+<img src="screenshots/running-flask-app.png" width="600" alt="SSH Session"/>
+
+
 ## Tech Stack
 - Python + Flask: the app
 - pytest: testing
