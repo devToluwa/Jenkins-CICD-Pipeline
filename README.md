@@ -8,17 +8,17 @@ This project originally called for Jenkins Blue Ocean as the UI layer. Blue Ocea
 
 ## Screenshots
 
-### Pipeleine Output
-<img src="screenshots/terraform-apply.png" width="600" alt="Terraform Apply"/>
+### Pipeline Output
+<img src="screenshots/full-pipeline-output.png" width="600" alt="Pipeline Output"/>
 
 ### Jenkins Stage View
-<img src="screenshots/jenkins-stage-view.png." width="600" alt="VPC Dashboard"/>
+<img src="screenshots/jenkins-stage-view.png" width="600" alt="Jenkins Stage View"/>
 
-### JenkinsFile
-<img src="screenshots/jenkinsfile.png" width="600" alt="EC2 Running"/>
+### Jenkinsfile
+<img src="screenshots/jenkinsfile.png" width="600" alt="Jenkinsfile"/>
 
-### Flask Application
-<img src="screenshots/running-flask-app.png" width="600" alt="SSH Session"/>
+### Running Flask App
+<img src="screenshots/running-flask-app.png" width="600" alt="Running Flask App"/>
 
 
 ## Tech Stack
