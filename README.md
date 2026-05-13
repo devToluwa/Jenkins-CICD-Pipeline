@@ -36,13 +36,13 @@ This project originally called for Jenkins Blue Ocean as the UI layer. Blue Ocea
 ## How to run locally
 
 ### Build the custom Jenkins image
-docker build -t jenkins-python -f Dockerfile.jenkins .
+`docker build -t jenkins-python -f Dockerfile.jenkins .`
 
 ### Run Jenkins
-docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock jenkins-python
+`docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock jenkins-python`
 
 ### Fix Docker socket permissions
-docker exec -u root $(docker ps -q) chmod 666 /var/run/docker.sock
+`docker exec -u root $(docker ps -q) chmod 666 /var/run/docker.sock`
 
 ### Run the app after a successful pipeline build
-docker run -p 5000:5000 flask-jenkins-app
+`docker run -p 5000:5000 flask-jenkins-app`
